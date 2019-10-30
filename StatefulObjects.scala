@@ -1,3 +1,8 @@
+
+/////////////////////////////////////////////////
+// Chapter 18. Stateful Objects
+/////////////////////////////////////////////////
+
 /*
   Stateful Objects are that objects which have changeable members or mutable members,
   that may vary what transactions or operations were previously performed on the object. 
@@ -118,3 +123,10 @@ object GFG
         w.drinkwater   // waterbottle empty fill water
     }  
 } 
+
+/////////////////////////////////////////////////
+// References 
+/////////////////////////////////////////////////
+
+//  https://people.cs.ksu.edu/~schmidt/705a/Scala/Programming-in-Scala.pdf
+//  https://www.geeksforgeeks.org/scala-stateful-object/
