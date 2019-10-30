@@ -32,14 +32,14 @@
 // Creating the class
 class BankAccount { 
   // Creating states
-  private var bal: Int = 0
+  private var bal: Int = 0  // This variable will change
   def balance: Int = bal
   
   // Defining Method 
   def deposit(amount: Int) {
     
     require(amount > 0)
-    bal += amount
+    bal += amount  
     
   }
   // Defining method
@@ -70,7 +70,7 @@ class BankAccount {
 class waterbottle 
 { 
     // creating states 
-    var water: Int = 0
+    var water: Int = 0 // This variable will change
     def drinkwater = {  
         if(water > 0) 
         { 
