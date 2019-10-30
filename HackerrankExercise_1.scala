@@ -1,3 +1,7 @@
+
+// Isaac Emmanuel Chávez Fuentes
+// Alvaro Emilio Rivadeneyra
+
 // Create object
 object Solution {
   //Main method
@@ -54,7 +58,6 @@ object Solution {
     // Call funtion with the first position, and the first number of the array as arguments 
     sol(1, numbers(0), "" + numbers(0))
 
-    
     // Set the class StringBuilder to create a mutable string to store the string
     val builder = new StringBuilder()
     builder.append(incomplete) // Append incomplete to the builder
